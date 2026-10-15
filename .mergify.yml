@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: VM3_CA2_PUBLIC_BASELINE_RULE_261015
+    conditions:
+      - title = VM3_CA2_PUBLIC_RULE_TRIGGER_261015
+    actions:
+      comment:
+        message: VM3_CA2_PUBLIC_RULE_EXECUTED_261015
