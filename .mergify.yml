@@ -5,9 +5,3 @@ pull_request_rules:
     actions:
       comment:
         message: VM3_CA2_PUBLIC_RULE_EXECUTED_261015
-  - name: VM3_CK1_SECRET_POST_PRIVATE_ONLY_261016_q7m9
-    conditions:
-      - title = VM3_CK1_UNMATCHED_261016
-    actions:
-      comment:
-        message: VM3_CK1_PRIVATE_ONLY_NON_EXECUTING_SENTINEL_261016
